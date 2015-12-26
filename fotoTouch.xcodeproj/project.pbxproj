@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A04CA8C1C2E6FC000CA2C6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA8B1C2E6FC000CA2C6C /* main.m */; };
+		0A04CA8F1C2E6FC000CA2C6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA8E1C2E6FC000CA2C6C /* AppDelegate.m */; };
+		0A04CA921C2E6FC000CA2C6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CA911C2E6FC000CA2C6C /* ViewController.m */; };
+		0A04CA951C2E6FC000CA2C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CA931C2E6FC000CA2C6C /* Main.storyboard */; };
+		0A04CA971C2E6FC100CA2C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CA961C2E6FC100CA2C6C /* Assets.xcassets */; };
+		0A04CA9A1C2E6FC100CA2C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CA981C2E6FC100CA2C6C /* LaunchScreen.storyboard */; };
+		0A04CAA51C2E6FC100CA2C6C /* fotoTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CAA41C2E6FC100CA2C6C /* fotoTouchTests.m */; };
+		0A04CAB01C2E6FC100CA2C6C /* fotoTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CAAF1C2E6FC100CA2C6C /* fotoTouchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A04CAA11C2E6FC100CA2C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A04CA7F1C2E6FC000CA2C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A04CA861C2E6FC000CA2C6C;
+			remoteInfo = fotoTouch;
+		};
+		0A04CAAC1C2E6FC100CA2C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A04CA7F1C2E6FC000CA2C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A04CA861C2E6FC000CA2C6C;
+			remoteInfo = fotoTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A04CA871C2E6FC000CA2C6C /* fotoTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotoTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04CA8B1C2E6FC000CA2C6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A04CA8D1C2E6FC000CA2C6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A04CA8E1C2E6FC000CA2C6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A04CA901C2E6FC000CA2C6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A04CA911C2E6FC000CA2C6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A04CA941C2E6FC000CA2C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A04CA961C2E6FC100CA2C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A04CA991C2E6FC100CA2C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A04CA9B1C2E6FC100CA2C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04CAA01C2E6FC100CA2C6C /* fotoTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fotoTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04CAA41C2E6FC100CA2C6C /* fotoTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fotoTouchTests.m; sourceTree = "<group>"; };
+		0A04CAA61C2E6FC100CA2C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04CAAB1C2E6FC100CA2C6C /* fotoTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fotoTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A04CAAF1C2E6FC100CA2C6C /* fotoTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fotoTouchUITests.m; sourceTree = "<group>"; };
+		0A04CAB11C2E6FC100CA2C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A04CA841C2E6FC000CA2C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CA9D1C2E6FC100CA2C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CAA81C2E6FC100CA2C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A04CA7E1C2E6FC000CA2C6C = {
+			isa = PBXGroup;
+			children = (
+				0A04CA891C2E6FC000CA2C6C /* fotoTouch */,
+				0A04CAA31C2E6FC100CA2C6C /* fotoTouchTests */,
+				0A04CAAE1C2E6FC100CA2C6C /* fotoTouchUITests */,
+				0A04CA881C2E6FC000CA2C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A04CA881C2E6FC000CA2C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A04CA871C2E6FC000CA2C6C /* fotoTouch.app */,
+				0A04CAA01C2E6FC100CA2C6C /* fotoTouchTests.xctest */,
+				0A04CAAB1C2E6FC100CA2C6C /* fotoTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A04CA891C2E6FC000CA2C6C /* fotoTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0A04CA8D1C2E6FC000CA2C6C /* AppDelegate.h */,
+				0A04CA8E1C2E6FC000CA2C6C /* AppDelegate.m */,
+				0A04CA901C2E6FC000CA2C6C /* ViewController.h */,
+				0A04CA911C2E6FC000CA2C6C /* ViewController.m */,
+				0A04CA931C2E6FC000CA2C6C /* Main.storyboard */,
+				0A04CA961C2E6FC100CA2C6C /* Assets.xcassets */,
+				0A04CA981C2E6FC100CA2C6C /* LaunchScreen.storyboard */,
+				0A04CA9B1C2E6FC100CA2C6C /* Info.plist */,
+				0A04CA8A1C2E6FC000CA2C6C /* Supporting Files */,
+			);
+			path = fotoTouch;
+			sourceTree = "<group>";
+		};
+		0A04CA8A1C2E6FC000CA2C6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A04CA8B1C2E6FC000CA2C6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A04CAA31C2E6FC100CA2C6C /* fotoTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A04CAA41C2E6FC100CA2C6C /* fotoTouchTests.m */,
+				0A04CAA61C2E6FC100CA2C6C /* Info.plist */,
+			);
+			path = fotoTouchTests;
+			sourceTree = "<group>";
+		};
+		0A04CAAE1C2E6FC100CA2C6C /* fotoTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A04CAAF1C2E6FC100CA2C6C /* fotoTouchUITests.m */,
+				0A04CAB11C2E6FC100CA2C6C /* Info.plist */,
+			);
+			path = fotoTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A04CA861C2E6FC000CA2C6C /* fotoTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04CAB41C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouch" */;
+			buildPhases = (
+				0A04CA831C2E6FC000CA2C6C /* Sources */,
+				0A04CA841C2E6FC000CA2C6C /* Frameworks */,
+				0A04CA851C2E6FC000CA2C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fotoTouch;
+			productName = fotoTouch;
+			productReference = 0A04CA871C2E6FC000CA2C6C /* fotoTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A04CA9F1C2E6FC100CA2C6C /* fotoTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04CAB71C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouchTests" */;
+			buildPhases = (
+				0A04CA9C1C2E6FC100CA2C6C /* Sources */,
+				0A04CA9D1C2E6FC100CA2C6C /* Frameworks */,
+				0A04CA9E1C2E6FC100CA2C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A04CAA21C2E6FC100CA2C6C /* PBXTargetDependency */,
+			);
+			name = fotoTouchTests;
+			productName = fotoTouchTests;
+			productReference = 0A04CAA01C2E6FC100CA2C6C /* fotoTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A04CAAA1C2E6FC100CA2C6C /* fotoTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04CABA1C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouchUITests" */;
+			buildPhases = (
+				0A04CAA71C2E6FC100CA2C6C /* Sources */,
+				0A04CAA81C2E6FC100CA2C6C /* Frameworks */,
+				0A04CAA91C2E6FC100CA2C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A04CAAD1C2E6FC100CA2C6C /* PBXTargetDependency */,
+			);
+			name = fotoTouchUITests;
+			productName = fotoTouchUITests;
+			productReference = 0A04CAAB1C2E6FC100CA2C6C /* fotoTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A04CA7F1C2E6FC000CA2C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BridgeLabz;
+				TargetAttributes = {
+					0A04CA861C2E6FC000CA2C6C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0A04CA9F1C2E6FC100CA2C6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A04CA861C2E6FC000CA2C6C;
+					};
+					0A04CAAA1C2E6FC100CA2C6C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A04CA861C2E6FC000CA2C6C;
+					};
+				};
+			};
+			buildConfigurationList = 0A04CA821C2E6FC000CA2C6C /* Build configuration list for PBXProject "fotoTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A04CA7E1C2E6FC000CA2C6C;
+			productRefGroup = 0A04CA881C2E6FC000CA2C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A04CA861C2E6FC000CA2C6C /* fotoTouch */,
+				0A04CA9F1C2E6FC100CA2C6C /* fotoTouchTests */,
+				0A04CAAA1C2E6FC100CA2C6C /* fotoTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A04CA851C2E6FC000CA2C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04CA9A1C2E6FC100CA2C6C /* LaunchScreen.storyboard in Resources */,
+				0A04CA971C2E6FC100CA2C6C /* Assets.xcassets in Resources */,
+				0A04CA951C2E6FC000CA2C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CA9E1C2E6FC100CA2C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CAA91C2E6FC100CA2C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A04CA831C2E6FC000CA2C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04CA921C2E6FC000CA2C6C /* ViewController.m in Sources */,
+				0A04CA8F1C2E6FC000CA2C6C /* AppDelegate.m in Sources */,
+				0A04CA8C1C2E6FC000CA2C6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CA9C1C2E6FC100CA2C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04CAA51C2E6FC100CA2C6C /* fotoTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A04CAA71C2E6FC100CA2C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A04CAB01C2E6FC100CA2C6C /* fotoTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A04CAA21C2E6FC100CA2C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A04CA861C2E6FC000CA2C6C /* fotoTouch */;
+			targetProxy = 0A04CAA11C2E6FC100CA2C6C /* PBXContainerItemProxy */;
+		};
+		0A04CAAD1C2E6FC100CA2C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A04CA861C2E6FC000CA2C6C /* fotoTouch */;
+			targetProxy = 0A04CAAC1C2E6FC100CA2C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A04CA931C2E6FC000CA2C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A04CA941C2E6FC000CA2C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A04CA981C2E6FC100CA2C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A04CA991C2E6FC100CA2C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A04CAB21C2E6FC100CA2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A04CAB31C2E6FC100CA2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A04CAB51C2E6FC100CA2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fotoTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A04CAB61C2E6FC100CA2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fotoTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A04CAB81C2E6FC100CA2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fotoTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fotoTouch.app/fotoTouch";
+			};
+			name = Debug;
+		};
+		0A04CAB91C2E6FC100CA2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fotoTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fotoTouch.app/fotoTouch";
+			};
+			name = Release;
+		};
+		0A04CABB1C2E6FC100CA2C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fotoTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fotoTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A04CABC1C2E6FC100CA2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fotoTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ABCD.fotoTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fotoTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A04CA821C2E6FC000CA2C6C /* Build configuration list for PBXProject "fotoTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04CAB21C2E6FC100CA2C6C /* Debug */,
+				0A04CAB31C2E6FC100CA2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A04CAB41C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04CAB51C2E6FC100CA2C6C /* Debug */,
+				0A04CAB61C2E6FC100CA2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A04CAB71C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04CAB81C2E6FC100CA2C6C /* Debug */,
+				0A04CAB91C2E6FC100CA2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A04CABA1C2E6FC100CA2C6C /* Build configuration list for PBXNativeTarget "fotoTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A04CABB1C2E6FC100CA2C6C /* Debug */,
+				0A04CABC1C2E6FC100CA2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A04CA7F1C2E6FC000CA2C6C /* Project object */;
+}
