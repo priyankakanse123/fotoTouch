@@ -15,6 +15,10 @@
 		0A04CA9A1C2E6FC100CA2C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CA981C2E6FC100CA2C6C /* LaunchScreen.storyboard */; };
 		0A04CAA51C2E6FC100CA2C6C /* fotoTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CAA41C2E6FC100CA2C6C /* fotoTouchTests.m */; };
 		0A04CAB01C2E6FC100CA2C6C /* fotoTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A04CAAF1C2E6FC100CA2C6C /* fotoTouchUITests.m */; };
+		0A04CABE1C2E711500CA2C6C /* WoodTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CABD1C2E711500CA2C6C /* WoodTexture.png */; };
+		0A04CAC01C2E712000CA2C6C /* AddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CABF1C2E712000CA2C6C /* AddButton.png */; };
+		0A04CB011C2EB59400CA2C6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A04CB001C2EB59400CA2C6C /* AudioToolbox.framework */; };
+		0A04CB031C2EB65E00CA2C6C /* click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 0A04CB021C2EB65E00CA2C6C /* click.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		0A04CAAB1C2E6FC100CA2C6C /* fotoTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fotoTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A04CAAF1C2E6FC100CA2C6C /* fotoTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fotoTouchUITests.m; sourceTree = "<group>"; };
 		0A04CAB11C2E6FC100CA2C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A04CABD1C2E711500CA2C6C /* WoodTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodTexture.png; sourceTree = "<group>"; };
+		0A04CABF1C2E712000CA2C6C /* AddButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddButton.png; sourceTree = "<group>"; };
+		0A04CB001C2EB59400CA2C6C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A04CB021C2EB65E00CA2C6C /* click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = click.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A04CB011C2EB59400CA2C6C /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		0A04CA7E1C2E6FC000CA2C6C = {
 			isa = PBXGroup;
 			children = (
+				0A04CB001C2EB59400CA2C6C /* AudioToolbox.framework */,
 				0A04CA891C2E6FC000CA2C6C /* fotoTouch */,
 				0A04CAA31C2E6FC100CA2C6C /* fotoTouchTests */,
 				0A04CAAE1C2E6FC100CA2C6C /* fotoTouchUITests */,
@@ -101,6 +111,9 @@
 		0A04CA891C2E6FC000CA2C6C /* fotoTouch */ = {
 			isa = PBXGroup;
 			children = (
+				0A04CB021C2EB65E00CA2C6C /* click.aiff */,
+				0A04CABF1C2E712000CA2C6C /* AddButton.png */,
+				0A04CABD1C2E711500CA2C6C /* WoodTexture.png */,
 				0A04CA8D1C2E6FC000CA2C6C /* AppDelegate.h */,
 				0A04CA8E1C2E6FC000CA2C6C /* AppDelegate.m */,
 				0A04CA901C2E6FC000CA2C6C /* ViewController.h */,
@@ -243,8 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A04CB031C2EB65E00CA2C6C /* click.aiff in Resources */,
+				0A04CABE1C2E711500CA2C6C /* WoodTexture.png in Resources */,
 				0A04CA9A1C2E6FC100CA2C6C /* LaunchScreen.storyboard in Resources */,
 				0A04CA971C2E6FC100CA2C6C /* Assets.xcassets in Resources */,
+				0A04CAC01C2E712000CA2C6C /* AddButton.png in Resources */,
 				0A04CA951C2E6FC000CA2C6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
